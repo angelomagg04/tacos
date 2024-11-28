@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbe4c7;
+    margin: 0;
+    padding: 0;
+    background-image: url("tacos.webp");
+  }
+  .oi-regular {
+    font-family: "Oi", serif;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #493114
+  }
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #fef4ea;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  select, input[type="checkbox"] {
+    margin-bottom: 10px;
+  }
+  .btn {
+    background-color: #da5a0a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  .btn:hover {
+    background-color: #d35106;
+  }
+  .output {
+    text-align: left;
+    margin-top: 20px;
+    background-color: #eacbab;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  .output h2 {
+    margin: 0 0 10px;
+  }
+  .output p {
+    margin: 5px 0;
+  }
+
+#leng{
+  position:absolute;
+  top:20px;
+  left:20px;
+  background-color: #fef4ea;
+  width: 80px
+}
